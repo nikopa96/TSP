@@ -14,7 +14,12 @@ public class ApproximateTSP {
         Kruskal kruskal = new Kruskal(vertices, edges);
         DFS dfs = new DFS();
 
-        return dfs.getPreorder(kruskal.findMST());
+        int[] path = dfs.getPreorder(kruskal.findMST());
+        if (path.length == 1) {
+            return new int[] {0, 0};
+        } else {
+            return path;
+        }
     }
 
     public int measureDistance(int x1, int y1, int x2, int y2){

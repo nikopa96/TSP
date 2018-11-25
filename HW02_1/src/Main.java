@@ -21,28 +21,31 @@ public class Main {
 //
 //        System.out.println(upTree);
 
-        int[][] coordinates = new int[21][2];
-        coordinates[0][0] = 981036; coordinates[0][1] = 508139;
-        coordinates[1][0] = 534120; coordinates[1][1] = -42453;
-        coordinates[2][0] = 577878; coordinates[2][1] = -43732;
-        coordinates[3][0] = 532890; coordinates[3][1] = -96645;
-        coordinates[4][0] = 205322; coordinates[4][1] = 215891;
-        coordinates[5][0] = 225923; coordinates[5][1] = 197950;
-        coordinates[6][0] = 69842; coordinates[6][1] = 667632;
-        coordinates[7][0] = 391965; coordinates[7][1] = 1054524;
-        coordinates[8][0] = 310065; coordinates[8][1] = -10714;
-        coordinates[9][0] = 247401; coordinates[9][1] = 754523;
-        coordinates[10][0] = 217951; coordinates[10][1] = 218350;
-        coordinates[11][0] = 443097; coordinates[11][1] = 54051;
-        coordinates[12][0] = 47342; coordinates[12][1] = 630935;
-        coordinates[13][0] = 317515; coordinates[13][1] = 713679;
-        coordinates[14][0] = 301816; coordinates[14][1] = 1021772;
-        coordinates[15][0] = 950864; coordinates[15][1] = 332234;
-        coordinates[16][0] = 276433; coordinates[16][1] = 725657;
-        coordinates[17][0] = 921801; coordinates[17][1] = 410349;
-        coordinates[18][0] = 555508; coordinates[18][1] = 67090;
-        coordinates[19][0] = 409959; coordinates[19][1] = 379409;
-        coordinates[20][0] = 968097; coordinates[20][1] = 540588;
+//        int[][] coordinates = new int[21][2];
+//        coordinates[0][0] = 981036; coordinates[0][1] = 508139;
+//        coordinates[1][0] = 534120; coordinates[1][1] = -42453;
+//        coordinates[2][0] = 577878; coordinates[2][1] = -43732;
+//        coordinates[3][0] = 532890; coordinates[3][1] = -96645;
+//        coordinates[4][0] = 205322; coordinates[4][1] = 215891;
+//        coordinates[5][0] = 225923; coordinates[5][1] = 197950;
+//        coordinates[6][0] = 69842; coordinates[6][1] = 667632;
+//        coordinates[7][0] = 391965; coordinates[7][1] = 1054524;
+//        coordinates[8][0] = 310065; coordinates[8][1] = -10714;
+//        coordinates[9][0] = 247401; coordinates[9][1] = 754523;
+//        coordinates[10][0] = 217951; coordinates[10][1] = 218350;
+//        coordinates[11][0] = 443097; coordinates[11][1] = 54051;
+//        coordinates[12][0] = 47342; coordinates[12][1] = 630935;
+//        coordinates[13][0] = 317515; coordinates[13][1] = 713679;
+//        coordinates[14][0] = 301816; coordinates[14][1] = 1021772;
+//        coordinates[15][0] = 950864; coordinates[15][1] = 332234;
+//        coordinates[16][0] = 276433; coordinates[16][1] = 725657;
+//        coordinates[17][0] = 921801; coordinates[17][1] = 410349;
+//        coordinates[18][0] = 555508; coordinates[18][1] = 67090;
+//        coordinates[19][0] = 409959; coordinates[19][1] = 379409;
+//        coordinates[20][0] = 968097; coordinates[20][1] = 540588;
+
+        int[][] coordinates = new int[1][2];
+        coordinates[0][0] = 1111; coordinates[0][1] = 233;
 
 
 //        ApproximateTSP approximateTSP = new ApproximateTSP();
