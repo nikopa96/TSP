@@ -53,6 +53,10 @@ public class DFS {
         }
         current.add(0);
 
+        if (current.size() == 1) {
+            current.add(0);
+        }
+
         int[] path = new int[current.size()];
         for (int i = 0; i < current.size(); i++) {
             path[i] = current.get(i);

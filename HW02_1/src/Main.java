@@ -44,8 +44,9 @@ public class Main {
 //        coordinates[19][0] = 409959; coordinates[19][1] = 379409;
 //        coordinates[20][0] = 968097; coordinates[20][1] = 540588;
 
-        int[][] coordinates = new int[1][2];
+        int[][] coordinates = new int[2][2];
         coordinates[0][0] = 1111; coordinates[0][1] = 233;
+        coordinates[1][0] = 1122; coordinates[1][1] = 2773;
 
 
 //        ApproximateTSP approximateTSP = new ApproximateTSP();
