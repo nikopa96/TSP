@@ -7,14 +7,14 @@ public class ApproximateTSP {
 
     /* Approximating search */
     public static int[] approximateSolution(int[][] coordinates) {
-        ApproximateTSP approximateTSP = new ApproximateTSP();
-        List<Edge> edges = approximateTSP.edgeMaker(coordinates);
-        List<Integer> vertices = approximateTSP.verticesMaker(coordinates);
+//        ApproximateTSP approximateTSP = new ApproximateTSP();
+//        List<Edge> edges = approximateTSP.edgeMaker(coordinates);
+//        List<Integer> vertices = approximateTSP.verticesMaker(coordinates);
+//
+//        Kruskal kruskal = new Kruskal(vertices, edges);
+//        DFS dfs = new DFS();
 
-        Kruskal kruskal = new Kruskal(vertices, edges);
-        DFS dfs = new DFS();
-
-        return dfs.getPreorder(kruskal.findMST());
+        return null;
     }
 
     public int measureDistance(int x1, int y1, int x2, int y2){
