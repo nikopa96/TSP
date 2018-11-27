@@ -11,10 +11,10 @@ public class ApproximateTSP {
         List<Edge> edges = approximateTSP.edgeMaker(coordinates);
         List<Integer> vertices = approximateTSP.verticesMaker(coordinates);
 
-        Kruskal kruskal = new Kruskal(vertices, edges);
+        MST mst = new MST(vertices, edges);
         DFS dfs = new DFS();
 
-        return dfs.getPreorder(kruskal.findMST());
+        return dfs.getPreorder(mst.findMST());
     }
 
     public int measureDistance(int x1, int y1, int x2, int y2){

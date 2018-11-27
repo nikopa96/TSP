@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Kruskal {
+public class MST {
 
     private List<Integer> vertices;
     private List<Edge> edges;
 
-    public Kruskal(List<Integer> vertices, List<Edge> edges) {
+    public MST(List<Integer> vertices, List<Edge> edges) {
         this.vertices = vertices;
         this.edges = edges;
     }

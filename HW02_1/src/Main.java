@@ -44,18 +44,19 @@ public class Main {
 //        coordinates[19][0] = 409959; coordinates[19][1] = 379409;
 //        coordinates[20][0] = 968097; coordinates[20][1] = 540588;
 
-        int[][] coordinates = new int[2][2];
-        coordinates[0][0] = 1111; coordinates[0][1] = 233;
-        coordinates[1][0] = 1122; coordinates[1][1] = 2773;
+        int[][] coordinates = new int[4][2];
+        coordinates[0][0] = 1; coordinates[0][1] = 3;
+        coordinates[1][0] = 3; coordinates[1][1] = 1;
+        coordinates[2][0] = 3; coordinates[2][1] = 3;
+        coordinates[3][0] = 6; coordinates[3][1] = 3;
 
+        ApproximateTSP approximateTSP = new ApproximateTSP();
+        List<Edge> edges = approximateTSP.edgeMaker(coordinates);
+        List<Integer> vertices = approximateTSP.verticesMaker(coordinates);
 
-//        ApproximateTSP approximateTSP = new ApproximateTSP();
-//        List<Edge> edges = approximateTSP.edgeMaker(coordinates);
-//        List<Integer> vertices = approximateTSP.verticesMaker(coordinates);
-//
-//        Kruskal kruskal = new Kruskal(vertices, edges);
-//        DFS dfs = new DFS();
-//        dfs.getPreorder(kruskal.findMST());
+        MST kruskal = new MST(vertices, edges);
+        DFS dfs = new DFS();
+        dfs.getPreorder(kruskal.findMST());
 
         System.out.println(Arrays.toString(ApproximateTSP.approximateSolution(coordinates)));
     }
